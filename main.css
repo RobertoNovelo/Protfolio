@@ -1,0 +1,35 @@
+body
+{
+	margin: 0;
+	padding:0;
+}
+
+.nav-bar
+{
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 5em;
+	background-color: green;
+}
+
+.nav-bar-solid
+{
+	background: #B7BAC1;
+}
+
+.nav-bar-option
+{
+	float: right;
+	color: white;
+}
+
+.transition
+{
+	-webkit-transition: background .5s ease;
+	-moz-transition: background .5s ease;
+	-o-transition: background .5s ease;
+	-ms-transition: background .5s ease;
+	transition: background .5s ease;
+}
